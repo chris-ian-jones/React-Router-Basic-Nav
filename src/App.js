@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom'
 
 // use 'Route' feature of react router dom package
 // render specified components when the url matched the route path
-// uses 'exact = true' to only match url exactly
+// added prop: 'exact = true' to only match url exactly for home
 const App = () => (
   <div>
     <Navigation />
