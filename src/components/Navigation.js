@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 // using the 'link' feature of react router dom package
 // to provide navigation around application
-// component returns navigation component
+// 'to' prop specifies where we go to in the url
+// returns whole navigation component
 const Navigation = () => {
   return (
     <div>
