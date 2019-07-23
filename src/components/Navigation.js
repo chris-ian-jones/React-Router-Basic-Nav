@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
+// using the 'link' feature of react router dom package
+// to provide navigation around application
+// component returns navigation component
 const Navigation = () => {
   return (
     <div>
